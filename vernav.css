@@ -77,3 +77,7 @@ a{
 #vivo:hover #vdrop{
     display: block;
 }
+@media (max-width:600px){
+    #cont{
+        width:20%;
+}
