@@ -1,0 +1,79 @@
+body{
+padding: 0;
+margin: 0;
+background-image: url(./image/bg.1.jpeg);
+background-size: cover;
+background-position:center;
+background-repeat:no-repeat;
+}
+#cont{
+    background-color:rgba(0, 0, 0, 0.445);
+    height: 100vh;
+    width: 10%;
+}
+#nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    border-bottom: 2px solid white;
+}
+/* #menu{
+    list-style: none;
+    padding: 0;
+    background-color: orangered;
+    position: relative;
+    display: none;
+} */
+#drop{
+    position: relative;
+}
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: orangered;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#ip{
+    position: relative;
+}
+#idrop{
+    list-style: none;
+    padding: 0;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left:100%;
+    width:200%;
+    display: none;
+}
+#ip:hover #idrop{
+    display: block;
+}
+#vivo{
+    position: relative;
+}
+#vdrop{
+    list-style: none;
+    padding: 0;
+    background-color: orange;
+    position: absolute;
+    top: 0%;
+    left:100%;
+    width:200%;
+    display: none;
+}
+#vivo:hover #vdrop{
+    display: block;
+}
